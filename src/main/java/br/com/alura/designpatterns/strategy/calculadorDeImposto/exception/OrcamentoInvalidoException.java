@@ -1,4 +1,4 @@
-package br.com.alura.designpatterns.strategy.exception;
+package br.com.alura.designpatterns.strategy.calculadorDeImposto.exception;
 
 public class OrcamentoInvalidoException extends Exception {
 	

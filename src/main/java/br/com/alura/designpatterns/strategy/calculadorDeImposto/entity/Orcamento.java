@@ -1,6 +1,6 @@
-package br.com.alura.designpatterns.strategy.entity;
+package br.com.alura.designpatterns.strategy.calculadorDeImposto.entity;
 
-import br.com.alura.designpatterns.strategy.exception.OrcamentoInvalidoException;
+import br.com.alura.designpatterns.strategy.calculadorDeImposto.exception.OrcamentoInvalidoException;
 
 public class Orcamento {
 	

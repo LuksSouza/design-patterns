@@ -1,12 +1,12 @@
-package br.com.alura.designpatterns.strategy.entity;
+package br.com.alura.designpatterns.strategy.calculadorDeImposto.entity;
 
 import static org.hamcrest.CoreMatchers.is;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.alura.designpatterns.strategy.entity.Orcamento;
-import br.com.alura.designpatterns.strategy.exception.OrcamentoInvalidoException;
+import br.com.alura.designpatterns.strategy.calculadorDeImposto.entity.Orcamento;
+import br.com.alura.designpatterns.strategy.calculadorDeImposto.exception.OrcamentoInvalidoException;
 
 public class OrcamentoTest {
 	
