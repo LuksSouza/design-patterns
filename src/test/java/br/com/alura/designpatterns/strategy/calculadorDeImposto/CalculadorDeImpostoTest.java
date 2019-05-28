@@ -56,7 +56,6 @@ public class CalculadorDeImpostoTest {
 		iccc = new ICCC();
 		orcamento = new Orcamento(2000.00d);		
 
-	
 		this.impostoCalculado = this.calculadorDeImposto.realizaCalculo(this.orcamento, this.iccc);
 		
 		Assert.assertEquals(impostoCalculado, 140.00, 0.01);
@@ -67,7 +66,6 @@ public class CalculadorDeImpostoTest {
 		iccc = new ICCC();
 		orcamento = new Orcamento(4000.00d);		
 
-	
 		this.impostoCalculado = this.calculadorDeImposto.realizaCalculo(this.orcamento, this.iccc);
 		
 		Assert.assertEquals(impostoCalculado, 350.00, 0.01);
